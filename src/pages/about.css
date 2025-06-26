@@ -1,0 +1,68 @@
+::after,
+::before{
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    width: 100%;
+    height: fit-content;
+}
+.logo-drop img{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+}
+.column-container{
+    width: 100%;
+    height: fit-content ;
+    display: flex;  
+    justify-content: center;
+}
+.content {
+    height: 80vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 40% 50%; 
+}
+.left-content{
+    padding: 10px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-tab img{
+    height: 70vh;
+    box-shadow: #575549 10px 10px 5px;
+}
+.right-content{
+    margin-top: 2rem;
+}
+.text-graph{
+    text-align: justify;
+    text-indent: 3rem;
+}
+.line-break{
+    margin-top: 5%;
+    border: 1px solid black;
+    width: 34rem    ;
+}
+
+.button-more button{
+    margin-top: 5%;
+    border: 50px;
+    border-color: none;
+    background-color: #575549;
+    color: #FFFBF5;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 1rem;
+}
+.button-more button:hover{
+    color: #575549;
+    background-color: #FFFBF5;
+}
